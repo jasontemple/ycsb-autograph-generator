@@ -11,10 +11,10 @@ from os.path import isfile, join
 from matplotlib import pyplot as pp
 
 # ---------- EDIT THESE TO CHANGE THE LOG DIRECTORY AND WHERE THE FILES SHOULD BE SAVED ----------------------
-directory = "/home/naman/dd/hbasefiles"
-readsavefile="/home/naman/dd/hbase-read-vs-throughput"
-updatesavefile="/home/naman/dd/hbase-update-vs-throughput"
-throughputsavefile="/home/naman/dd/hbase-throughput-vs-throughput"
+directory = "/tmp/hbase"
+readsavefile="/tmp/hbase/hbase-read-vs-throughput"
+updatesavefile="/tmp/hbase/hbase-update-vs-throughput"
+throughputsavefile="/tmp/hbase/hbase-throughput-vs-throughput"
 
 colors = [ 'bo--', 'go-', 'ro--', 'co-', 'mo--', 'yo-', 'ko--','bo-', 'go--', 'ro-', 'co--', 'mo-', 'yo--', 'ko-' ]
 maxth=0
